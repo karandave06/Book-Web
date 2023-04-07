@@ -1,0 +1,59 @@
+.footer{
+    background: rgba($color: #000000, $alpha: 0.815);
+    overflow: hidden;
+    color: white;
+    padding: 14vmin 18vmin;
+
+    .row{
+        p{
+            color: white;
+        }
+        .col-md-5{
+            h1{
+                overflow: hidden;
+            }
+
+            #news{
+                overflow: hidden;
+            }
+        }
+    }
+
+    .col-md-2{
+        h4{
+
+            overflow: hidden;
+            margin-top: 1rem;
+        }
+    }
+
+    .input-group{
+        input{
+border: none;
+
+&::placeholder{
+    color: white;
+}
+        }
+
+        .input-group-text{
+
+
+            background: var(--bggradient);
+            border: none;
+            height: 3rem;
+            width: 3rem;
+            padding: 1rem;
+
+        }
+        }
+
+        .column{
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+
+           
+        }
+    
+}

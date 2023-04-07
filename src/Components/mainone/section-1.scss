@@ -1,0 +1,52 @@
+@import '../../main.scss';
+
+.firstsection{
+    padding: 20vmin 0vmin;
+
+    .row{
+        .col-md-6{
+
+            &:last-child
+            {
+                position: relative;
+            }
+
+            .panel{
+                position: absolute;
+                top: 7vmin;
+                left: -18vmin;
+                background: #ffffff;
+                text-align: left;
+                padding: 13vmin 5vmin 20vmin 10vmin ;
+                box-shadow: 0px 25px 42px rgba(0,0,0,0.8);
+                border-radius: 3px;
+                z-index: 1;
+
+                @include tab{
+                    position: initial;
+                    width: initial;
+                    height: initial;
+                }
+
+                h1{
+                    font-weight: bold;
+                    font-size: 2em ;
+                    padding: 0.4em 0;
+                }
+
+                p{
+                    font-size: 0.9em;
+                    color: rgba(0,0,0,1);
+                    font-weight: 700;
+                }
+            }
+            .pray{
+                img{
+                    opacity: 0.8;
+                    width: 80%;
+                    border-radius: 0.2rem;
+                }
+            }
+        }
+    }
+}

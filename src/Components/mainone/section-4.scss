@@ -1,0 +1,66 @@
+@import '../../main.scss';
+
+.forthsection{
+
+    h1{
+
+        font-size:5vmin;
+        padding-top: 14vmin;
+        overflow: hidden;
+
+    }
+
+    .card{
+        width: 23rem;
+         overflow: hidden;
+
+         @include mobilesm{
+            width: 17rem;
+            margin-left: -12px;
+
+         }
+
+         .card-title{
+            overflow: hidden;
+         }
+
+        .card-text{
+            padding: 0.4em;
+        }
+
+        .a{
+            font-size: 1.5em;
+        }
+
+        .border-radius{
+            border-radius: 340px;
+            width: 30%;
+            height: 30%;
+            padding: 5rem;
+        }
+    }
+
+    .team{
+        padding: 10vmin 4vmin;
+
+        @include tab{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+       
+       
+    }
+
+    .carousel-inner{
+        width: 23rem;
+
+        @include mobilesm{
+            width: 17rem;
+            margin-left: -8px;
+        }
+       
+    }
+}

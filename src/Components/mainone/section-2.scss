@@ -1,0 +1,131 @@
+@import '../../main.scss';
+.secondsection{
+
+    .cover{
+        width: 100%;
+        height: 55vmin;
+        background: url('../../../public//pexels-photo-452738.jpeg');
+        background-position: -24rem -19rem;
+        background-size: 150%;
+        position: relative;
+
+        @include tab{
+background-position: -25vmin -10vmin;
+        }
+
+        .content
+        {
+            background: rgba($color: #000, $alpha: 0.8);
+            height: 100%;
+            width: 100%;
+            padding-top: 8rem;
+
+            h1{
+                font-family: var(--Patua);
+                font-size: 6vimin;
+                color: whitesmoke;
+            }
+
+            p{
+                color: #e5e5e5;
+                font-family: var(--Rubik);
+                font-size: 2vimin;
+            }
+        }
+    }
+
+    .numbers{
+        margin-top: -7rem;
+
+        @include mobile{
+            margin-top: 0;
+        }
+        @include mobilesm{
+            margin-top: 2rem;
+        }
+        .rect{
+            position: relative;
+            z-index:1;
+            background: white;
+            width: 17rem;
+            height:12rem;
+            padding-top: 3.5vmin;
+            margin: 1rem;
+            border-radius: .5em;
+            box-shadow: 1px 2px 50px 0px rgba(255,0,0,0.3);
+
+            @include tab{
+                width: 10rem;
+                height: 8rem;
+             }
+
+            h1{
+                font-size:5rem;
+                color: tomato;
+
+                @include tab{
+                   font-size: 2rem;
+                }
+            }
+            p{
+                font-family: var(--Patua);
+            }
+
+            
+        }
+    }
+
+    .purchase{
+        h1{
+            padding-top: 15vmin;
+            padding-bottom:0.1em ;
+            font-family: var(--Lobster);
+        }
+
+        #purchase-p{
+            color: var(--light-black);
+            font-size: 3vmin;
+            padding: 10vmin;
+        }
+    
+
+    .cards{
+
+        div{
+            padding: 0;
+            margin: 0;
+        }
+
+        .card{
+            width: 22rem;
+            margin: 3vmin;
+
+            .card-title{
+                background:rgba(208,241,241,0.3);
+                padding: 1.4rem 1.5rem;
+
+            }
+
+            .card-text{
+                padding: 2.5rem 3rem;
+            }
+
+            .pricing{
+                margin-top: -1rem;
+                background:rgba(208,241,241,0.5);
+                border-top-right-radius: 170px;
+                border-top-left-radius: 170px;
+
+                h1{
+                    font-size: 10vmin;
+                    padding: 1em 0.5em;
+                }
+
+
+            }
+       }
+    }
+
+}
+   
+}

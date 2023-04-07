@@ -1,0 +1,62 @@
+@import '..//../main.scss';
+
+.thirdsection{
+    height: 70vmin;
+    margin-top: 16vmin;
+    background: var(--bggradient);
+
+    @include tab{
+        height: inherit;
+        padding: 10vmin;
+    }
+
+
+
+
+    .col-md-12{
+        h1{
+            padding: 2em 0 0.5em 0;
+            color: whitesmoke;
+            font-size: 6vimn;
+
+            @include tab{
+                padding: 6vmin 4vmin;
+            }
+        }
+
+        p{
+            padding: 0 4em;
+            padding-bottom: 2em ;
+            color: var(--light-gray);
+            font-size: 3vmin;
+        }
+    }
+
+    .desktop{
+
+        background: #ffffff;
+        display: inline-block;
+        border-radius: 3em;
+        padding: 2vmin 4.5vmin;
+        margin: 1em;
+
+        i{
+            @include tab{
+                text-align: center;
+            }
+        }
+
+        
+
+        h3{
+            font-size: 4vmin;
+            font-weight: 700;
+        }
+        p{
+            font-size: 3vmin;
+            font-weight: 500;
+        }
+
+
+    }
+}

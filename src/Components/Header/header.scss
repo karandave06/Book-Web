@@ -1,0 +1,52 @@
+@import '../../main.scss';
+
+
+.header{
+    overflow-x: hidden;
+    background: var(--bggradient); 
+    color: white;
+
+    .row{
+        .col-md-5{
+            padding: 15vmin 1vmin;
+            img{
+                width: 120%;
+               
+            }
+            
+        }
+
+        .col-md-7{
+            padding: 22vmin 1vmin;
+            padding-bottom: 35vmin;
+            font-family: var(--Rubik);
+
+            button{
+                border-radius: 1.8rem;
+                font-weight: bold;
+            }
+
+            h6{
+                padding: 1vmin;
+                letter-spacing: 4px;
+                font-weight: bold;
+
+            }
+
+            h1{
+                font-size: 8vmin;
+                font-weight: bold;
+                padding: 0.1em 0em;
+            }
+
+            p{
+                padding: 1vmin 5vmin;
+                font-size: 1.1rem;
+                font-weight: 600;
+            }
+            
+        }
+
+
+    }
+}
